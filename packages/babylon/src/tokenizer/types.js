@@ -189,6 +189,7 @@ export const keywords = {
   instanceof: new KeywordTokenType("instanceof", { beforeExpr, binop: 7 }),
   typeof: new KeywordTokenType("typeof", { beforeExpr, prefix, startsExpr }),
   void: new KeywordTokenType("void", { beforeExpr, prefix, startsExpr }),
+  secret: new KeywordTokenType("secret", { beforeExpr, prefix, startsExpr }),
   delete: new KeywordTokenType("delete", { beforeExpr, prefix, startsExpr }),
 };
 

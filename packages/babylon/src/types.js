@@ -427,6 +427,7 @@ export type UnaryOperator =
   | "~"
   | "typeof"
   | "void"
+  | "secret"
   | "delete"
   | "throw";
 
